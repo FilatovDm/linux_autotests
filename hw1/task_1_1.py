@@ -6,8 +6,6 @@
 
 import subprocess
 
-result = subprocess.run("cat /etc/os-release", shell=True, stdout=subprocess.PIPE, encoding="utf-8")
-
 
 def command_res(result):
     if result.returncode == 0:
@@ -20,4 +18,5 @@ def command_res(result):
         return False
 
 
+result = subprocess.run("cat /etc/os-release", shell=True, stdout=subprocess.PIPE, encoding="utf-8")
 print(command_res(result))
