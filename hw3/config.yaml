@@ -1,0 +1,9 @@
+folder_tst: /home/user/tst
+folder_out: /home/user/out
+folder_ext: /home/user/folder1
+sub_folder: sub_folder
+count: 3
+bs: 1M
+stat_file: /home/user/stat.txt
+key_t: -tzip
+output_file: output.zip
