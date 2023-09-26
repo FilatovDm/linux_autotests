@@ -1,6 +1,6 @@
 from sshcheckers import ssh_checkout_negative
-
 import yaml
+
 
 with open("config.yaml") as f:
     data = yaml.safe_load(f)

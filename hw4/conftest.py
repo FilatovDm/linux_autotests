@@ -3,6 +3,7 @@ import yaml
 from sshcheckers import ssh_checkout, ssh_getout
 from datetime import datetime
 
+
 with open("config.yaml") as f:
     data = yaml.safe_load(f)
 

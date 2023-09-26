@@ -1,6 +1,7 @@
 import yaml
 from sshcheckers import ssh_checkout, upload_files, ssh_getout
 
+
 with open("config.yaml") as f:
     data = yaml.safe_load(f)
 
